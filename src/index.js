@@ -10,13 +10,8 @@ root.render(
     <App />
   </React.StrictMode>
 );
-class HelloMessage extends React.Component {
-  render() {
-    return <div>Hello {this.props.name}</div>;
-  }
-}
 
-root.render(<HelloMessage name="Thor Odinson" />);
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
